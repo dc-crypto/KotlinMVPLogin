@@ -1,13 +1,12 @@
-package com.diegocastro.kotlinmvplogin
+package com.diegocastro.View
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.diegocastro.Presenter.LoginPresenter
-import com.diegocastro.View.ILoginView
+import com.diegocastro.kotlinmvplogin.R
 
 class MainActivity : AppCompatActivity(), ILoginView {
 
