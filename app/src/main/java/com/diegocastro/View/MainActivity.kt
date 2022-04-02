@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity(), ILoginView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var btn_login = findViewById<Button>(R.id.btn_login)
-        var edt_email = findViewById<EditText>(R.id.edt_email)
-        var edt_password = findViewById<EditText>(R.id.edt_password)
+        val btn_login = findViewById<Button>(R.id.btn_login)
+        val edt_email = findViewById<EditText>(R.id.edt_email)
+        val edt_password = findViewById<EditText>(R.id.edt_password)
 
         loginPresenter=LoginPresenter(this)
 
